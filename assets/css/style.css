@@ -1,0 +1,162 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: #D2A951;
+}
+
+.hero {
+    width: 100%;
+}
+
+.head {
+    width: 100%;
+    height: 100vh;
+}
+
+body {
+    background: url("../img/orqafon.jpg");
+    backdrop-filter: blur(3px);
+}
+
+.navbar {
+    width: 100vw;
+    height: 50px;
+    background: #363636;
+    position: fixed;
+    top: 0;
+}
+
+.navbar .left {
+    width: 50%;
+    color: #fff;
+    float: left;
+    font-size: 30px;
+}
+
+.navbar .right {
+    width: 50%;
+    float: left;
+    display: flex;
+    gap: 50px;
+    margin-left: -20px;
+    padding: 10px;
+}
+
+.right .item {
+    width: 20%;
+}
+
+.item a {
+    text-decoration: none;
+    color: #bbb;
+}
+
+.item a:hover {
+    color: #fff;
+}
+
+.part-one {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.picture img {
+    width: 500px;
+    height: 700px;
+    border-radius: 20%;
+    margin-top: 20px;
+}
+
+.picture {
+    width: 100%;
+    height: 100vh;
+}
+
+.picture h1 {
+    padding-top: 50px;
+    color: #fff;
+}
+
+.part-two {
+    width: 700px;
+    text-align: center;
+}
+
+.part-two h1 {
+    font-size: 50px;
+    text-align: center;
+}
+
+.paragrf {
+    font-size: 50px;
+}
+
+.suuu {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.part-thre {
+    font-size: 50px;
+    text-align: center;
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.part-four div {
+    text-align: center;
+    font-size: 50px;
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+}
+
+.part-five {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+}
+
+.part-five {
+    text-align: center;
+    font-size: 40px;
+    margin-top: 30px;
+}
+
+.part-five div img {
+    width: 100px;
+    height: 100px;
+}
+
+.foot {
+    font-size: 40px;
+    text-align: center;
+}
+
+
+/* @media screen and (max-width: 768px) {} */
+
+
+/* mobile */
+
+
+/* @media screen and (max-width: 425px) {
+    .navbar {
+        width: 100%;
+        height: 50vh;
+        display: flex;
+        flex-direction: column;
+    }
+    .navbar .right {
+        display: block;
+    }
+} */
